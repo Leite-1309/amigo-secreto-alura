@@ -22,6 +22,7 @@ function adicionar() {
 }
 
 function sortear() {
+    document.getElementById("lista-sorteio").textContent = "";
     embaralha(amigos);
     let sorteio = document.getElementById("lista-sorteio");
 
